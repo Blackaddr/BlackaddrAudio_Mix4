@@ -1,0 +1,283 @@
+{
+  "efxFileVersion": "1.3.0",
+  "company": "Blackaddr Audio",
+  "effectName": "Mix4",
+  "effectVersion": "1.0.0",
+  "coreVersion": "1.3.1",
+  "effectShortName": "MIX4",
+  "effectCategory": "Unspecified",
+  "effectDescription": "",
+  "numInputs": 4,
+  "numOutputs": 2,
+  "numControls": 12,
+  "effectFilename": "BlackaddrAudio_Mix4.efx",
+  "libraryName": "BlackaddrAudio_Mix4",
+  "cppClass": "BlackaddrAudio_Mix4::Mix4",
+  "cppInstBase": "_BlackaddrAudio_Mix4x",
+  "constructorParams": "",
+  "isSingleton": false,
+  "controls": [
+    {
+      "name": "Bypass",
+      "shortName": "BYP",
+      "description": "Bypasses the effect when enabled",
+      "config": [
+        0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "iconOn": "gfx/on_off_illuminated_switch_OFF.png",
+      "iconOnHeight": 159,
+      "iconOff": "gfx/on_off_illuminated_switch_ON.png",
+      "iconOffHeight": 159,
+      "position": [
+        450,
+        80
+      ],
+      "scalingRatio": 0.6499999761581421,
+      "userData": 1
+    },
+    {
+      "name": "Volume",
+      "shortName": "VOL",
+      "description": "Sets the effect output volume from -40dB to +10dB",
+      "config": [
+        3,
+        0.0,
+        10.0,
+        8.0,
+        0.1000000014901161
+      ],
+      "userData": 0
+    },
+    {
+      "name": "Channel 1 Level",
+      "shortName": "CH1 LVL",
+      "description": "Sets the volume on channel 1 from -80 dB to +12 dB.",
+      "config": [
+        3,
+        -60.0,
+        12.0,
+        -12.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_Blue.png",
+      "iconPotHeight": 256,
+      "position": [
+        199,
+        384
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 2 Level",
+      "shortName": "CH2 LVL",
+      "description": "Sets the volume on channel 2 from -80 dB to +12 dB.",
+      "config": [
+        3,
+        -60.0,
+        12.0,
+        -12.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_Blue.png",
+      "iconPotHeight": 256,
+      "position": [
+        319,
+        380
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 3 Level",
+      "shortName": "CH3 LVL",
+      "description": "Sets the volume on channel 3 from -80 dB to +12 dB.",
+      "config": [
+        3,
+        -60.0,
+        12.0,
+        -12.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_Blue.png",
+      "iconPotHeight": 256,
+      "position": [
+        439,
+        380
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 4 Level",
+      "shortName": "CH4 LVL",
+      "description": "Sets the volume on channel 4 from -80 dB to +12 dB.",
+      "config": [
+        3,
+        -60.0,
+        12.0,
+        -12.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_Blue.png",
+      "iconPotHeight": 256,
+      "position": [
+        559,
+        380
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 1 Pan",
+      "shortName": "CH1 PAN",
+      "description": "Pan control for channel 1.",
+      "config": [
+        3,
+        -1.0,
+        1.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "iconPot": "gfx/maschine-edit_medium_Pan_Knob_128x128.png",
+      "iconPotHeight": 128,
+      "position": [
+        155,
+        182
+      ],
+      "scalingRatio": 1.0,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 2 Pan",
+      "shortName": "CH2 PAN",
+      "description": "Pan control for channel 2.",
+      "config": [
+        3,
+        -1.0,
+        1.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "iconPot": "gfx/maschine-edit_medium_Pan_Knob_128x128.png",
+      "iconPotHeight": 128,
+      "position": [
+        276,
+        182
+      ],
+      "scalingRatio": 1.0,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 3 Pan",
+      "shortName": "CH3 PAN",
+      "description": "Pan control for channel 3.",
+      "config": [
+        3,
+        -1.0,
+        1.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "iconPot": "gfx/maschine-edit_medium_Pan_Knob_128x128.png",
+      "iconPotHeight": 128,
+      "position": [
+        396,
+        182
+      ],
+      "scalingRatio": 1.0,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Channel 4 Pan",
+      "shortName": "CH4 PAN",
+      "description": "Pan control for channel 4.",
+      "config": [
+        3,
+        -1.0,
+        1.0,
+        0.0,
+        0.05000000074505806
+      ],
+      "iconPot": "gfx/maschine-edit_medium_Pan_Knob_128x128.png",
+      "iconPotHeight": 128,
+      "position": [
+        515,
+        182
+      ],
+      "scalingRatio": 1.0,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Master 1",
+      "shortName": "MAST-1",
+      "description": "Master level for output channel 1 (left).",
+      "config": [
+        3,
+        -60.0,
+        20.0,
+        0.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_White.png",
+      "iconPotHeight": 256,
+      "position": [
+        723,
+        380
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    },
+    {
+      "name": "Master 2",
+      "shortName": "MAST-2",
+      "description": "Master level for output channel 2 (right).",
+      "config": [
+        3,
+        -60.0,
+        20.0,
+        0.0,
+        1.0
+      ],
+      "iconPot": "gfx/PC3_EnvFader_01_White.png",
+      "iconPotHeight": 256,
+      "position": [
+        795,
+        380
+      ],
+      "scalingRatio": 1.299999952316284,
+      "supressValueLabel": 1,
+      "userData": 0
+    }
+  ],
+  "projectFileVersion": "1.0.0",
+  "companyLogo": "gfx/BlackaddrLogo.png",
+  "pedalIcon": "gfx/Mix4_Icon.png",
+  "basePedal": "gfx/Mix4_base.png",
+  "publicHeaderFiles": [
+    "inc/Mix4.h"
+  ],
+  "privateSourceFiles": [
+    "src/Mix4Base.cpp",
+    "src/Mix4.cpp"
+  ],
+  "modules": null,
+  "settings": {
+    "showModules": false,
+    "isSingleton": false,
+    "cppDefines": ""
+  }
+}
